@@ -1,0 +1,38 @@
+#body-home, #body-edicion, #body-eliminacion, #body-nuevoLibro{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+#body-edicion a, #body-nuevoLibro a{
+    color: #fff;
+}
+
+h1, h2{
+    color: #fff;
+    text-align: center;
+}
+
+.form-group label{
+    color: #fff;
+}
+
+.eliminacionExitosa{
+   text-align: center;
+}
+
+.eliminacionExitosa a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.eliminacionExitosa a:hover{
+    color: #fff;
+    transition: .2s;
+}
+
+#nuevoLibroA{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
